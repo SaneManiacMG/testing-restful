@@ -5,7 +5,6 @@ import javax.persistence.*;
 @Entity
 public class Product {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private int productId;
     @Column
     private String productName;
